@@ -1,0 +1,42 @@
+.hero {
+  padding: 24px 0 453px;
+  position: relative;
+}
+
+.hero-text {
+  color: #474747;
+  font-family: IBM Plex Mono;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-heading {
+  background: linear-gradient(90deg, rgb(235, 163, 113), rgb(103, 33, 164));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: IBM Plex Mono;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.part--backgroundImg-picture {
+  position: absolute;
+  top: 280px;
+  left: 0;
+}
+
+.part--backgroundImg-boy {
+  position: absolute;
+  top: 278px;
+  left: 138px;
+  z-index: -2;
+}

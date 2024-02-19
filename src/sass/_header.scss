@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+
+  padding: 27px 16px;
+}
+
+.header-mobile--button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 34px;
+  height: 19px;
+}
+.header-mobile--svg {
+  width: 34px;
+  height: 19px;
+}
