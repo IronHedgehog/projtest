@@ -55,9 +55,21 @@
 .aboutDesign-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
-.aboutDesign-item:nth-child(odd) {
+.aboutDesign-item {
+  display: flex;
+}
+.aboutDesign-item:first-child {
+  margin-bottom: 32px;
+}
+
+.aboutDesign-firstblock {
+  margin-right: 60px;
+}
+
+.aboutDesign-secondblock {
   margin-right: 24px;
 }
 
@@ -78,6 +90,106 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.photos {
+  display: flex;
+  align-items: center;
+}
+.photos > img:not(:first-child) {
+  margin-left: -20px;
+}
+
+.number {
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  margin-left: 12px;
+}
+//form
+
+.aboutDesign-input {
+  width: 100%;
+  padding: 8px 26px;
+
+  box-sizing: border-box;
+  /* Grey/30 */
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 140px;
+
+  color: rgb(153, 153, 153);
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  /* Grey/00 */
+  background: rgb(255, 255, 255);
+}
+
+.mobile {
+  padding-left: 80px;
+}
+
+.input-wrapper {
+  display: block;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.flag {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 71, 255) 50.272%,
+    rgb(255, 245, 0) 50.329%
+  );
+
+  border-radius: 50%;
+}
+
+.x-mark {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 18px;
+  right: 16px;
+  /* Grey/60 */
+  color: rgb(153, 153, 153);
+}
+.arrow-bottom {
+  position: absolute;
+  width: 15px;
+  height: 6px;
+  top: 17px;
+  left: 52px;
+  color: rgb(214, 214, 214);
+}
+
+.aboutDesign-button {
+  padding: 8px 43px;
+  border-radius: 104px;
+
+  /* Lilac/400 */
+  background: rgb(83, 49, 178);
+  color: rgb(255, 255, 255);
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
   letter-spacing: 0%;
   text-align: left;
 }
